@@ -9,7 +9,7 @@ pipeline {
         sh 'npm install'
         sh 'npm build'
         sh 'npx --help'
-        sh 'npx codeceptjs run tests/login_test.js'
+        sh 'npx run tests/login_test.js'
       
       }
     }
