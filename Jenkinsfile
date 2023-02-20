@@ -8,6 +8,7 @@ pipeline {
       steps {
         sh 'npm install'
         sh 'npm build'
+        sh 'npx codeceptjs run'
       
       }
     }
