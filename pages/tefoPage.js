@@ -12,7 +12,7 @@ module.exports = {
     buttonMenu: ".ipc-responsive-button__text",
     firstStarName: "//*[contains(text(),'Stars')]/following-sibling::div/ul/li/a",
     firstActorName: "//*[@data-testid='title-cast-item__actor']",
-    targetWebsite: 'https://www.facebook.com/',
+    targetWebsite: 'https://www.imdb.com/',
 
 
   },
