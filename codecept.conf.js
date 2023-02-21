@@ -7,7 +7,7 @@ exports.config = {
       url: "http://localhost",
       show: true,
       browser: 'chromium',desiredCapabilities: {
-        chromeOptions: {
+        chromeiumOptions: {
           args: ["--headless", "--disable-gpu", "--no-sandbox"]
         }
       }
