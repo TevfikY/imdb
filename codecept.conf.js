@@ -5,7 +5,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: "http://localhost",
-      show: true,
+      show: false,
       browser: 'chromium',desiredCapabilities: {
         chromeiumOptions: {
           args: ["--headless", "--disable-gpu", "--no-sandbox"]
