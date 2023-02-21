@@ -6,5 +6,5 @@ Before(({I})=> {
 })
 
 Scenario('test something',  ({ I }) => {
-        I.click("#u_0_0_JA");
+        I.seeCurrentUrlEquals("https://www.facebook.com/");
 });
