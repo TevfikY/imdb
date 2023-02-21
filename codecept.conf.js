@@ -6,7 +6,11 @@ exports.config = {
     Playwright: {
       url: "http://localhost",
       show: true,
-      browser: 'chromium'
+      browser: 'chromium',desiredCapabilities: {
+        chromeOptions: {
+          args: ["--headless", "--disable-gpu", "--no-sandbox"]
+        }
+      }
     },
 
   },

@@ -44,12 +44,5 @@ module.exports = {
     I.waitForElement(this.buttons.secondSignInButton,3);
     I.url(this.buttons.secondSignInButton);
   }
-
-  
-
-  
-  
-
-  
   
 }
